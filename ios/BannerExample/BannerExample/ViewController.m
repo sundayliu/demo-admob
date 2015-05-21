@@ -18,7 +18,7 @@
   // an ad request is made. GADBannerView automatically returns test ads when running on a
   // simulator.
     //  request.testDevices = @[
-    //    @"2077ef9a63d2b398840261c8221a0c9a"  // Eric's iPod Touch
+    //    @"5136297318f5cbfd3bd53181aedfce6e"  // Eric's iPod Touch
     //  ];
   [self.bannerView loadRequest:request];
 }
