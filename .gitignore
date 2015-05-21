@@ -41,3 +41,4 @@ bin/
 *.app
 
 local.properties
+.gradle/
