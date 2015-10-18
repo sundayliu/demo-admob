@@ -10,7 +10,7 @@
   [super viewDidLoad];
 
   // Replace this ad unit ID with your own ad unit ID.
-  self.bannerView.adUnitID = @"ca-app-pub-9880926895077532/8717636785";
+  self.bannerView.adUnitID = @"ca-app-pub-9880926895077532/3530652382";
   self.bannerView.rootViewController = self;
 
   GADRequest *request = [GADRequest request];

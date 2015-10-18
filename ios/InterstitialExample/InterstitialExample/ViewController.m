@@ -133,9 +133,10 @@ typedef NS_ENUM(NSUInteger, GameState) {
 }
 
 - (void)createAndLoadInterstitial {
-  self.interstitial = [[GADInterstitial alloc] init];
-  self.interstitial.adUnitID = @"ca-app-pub-9880926895077532/1194369988";
-  self.interstitial.delegate = self;
+  //self.interstitial = [[GADInterstitial alloc] init];
+  //self.interstitial.adUnitID = @"ca-app-pub-9880926895077532/5007385589";
+    self.interstitial = [[GADInterstitial alloc] initWithAdUnitID:@"ca-app-pub-9880926895077532/5007385589"];
+    self.interstitial.delegate = self;
 
   GADRequest *request = [GADRequest request];
   // Request test ads on devices you specify. Your test device ID is printed to the console when
